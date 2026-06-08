@@ -17,6 +17,7 @@ const Resume = () => {
                         Icon={FaCodepen} 
                         date="Jul. 2025 - Dec. 2025"
                         role="Machine Learning Engineer"
+                        organization="GCash"
                         text={
                             <ul className="list-disc pl-5 space-y-2 marker:text-[#d4b886]">
                                 <li>
@@ -32,6 +33,7 @@ const Resume = () => {
                         Icon={FaReact} 
                         date="Nov. 2023 - Jan. 2025"
                         role="ML Research Consultant" 
+                        organization="Pasig City Science High School"
                         text={
                             <ul className="list-disc pl-5 space-y-2 marker:text-[#d4b886]">
                                 <li>
@@ -56,11 +58,9 @@ const Resume = () => {
                         Icon={BiBrain} 
                         role="University of the Philippines Diliman" 
                         date="September 2023 - Present" 
+                        organization="Bachelor of Science in Electronics Engineering"
                         text={
                             <ul className="list-disc pl-5 space-y-2 marker:text-[#d4b886]">
-                                <li>
-                                    Bachelor of Science in Electronics Engineering
-                                </li>
                                 <li>
                                     Algolympics 2025: Rank 9
                                 </li>
