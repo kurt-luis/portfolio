@@ -1,3 +1,8 @@
 @import "tailwindcss";
 
-
+/* ADD THIS BLOCK */
+html {
+  scroll-behavior: smooth;
+  /* Adjust this value based on how tall your Navbar is so it doesn't cover your titles! */
+  scroll-padding-top: 4rem; 
+}

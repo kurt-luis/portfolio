@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard';
 const Projects = () => {
   return (
     <div className="pt-16 pb-16">
-        <h1 className="text-center text-2xl md:text-4xl xl:text-5xl font-bold text-[#f8f6f7]">
+        <h1 className="text-center text-4xl md:text-5xl xl:text-6xl font-bold text-[#f8f6f7]">
             See my <br /> recent <span className="text-[#d4b886]"> projects </span>
         </h1>
         <div className="w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">

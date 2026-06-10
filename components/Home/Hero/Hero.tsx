@@ -43,7 +43,7 @@ const Hero = () => {
 
             <button className="mt-6 px-10 py-4 bg-[#c1a36e] hover:bg-[#d4b886] transition-all duration-300
             cursor-pointer rounded-full text-lg font-medium">
-                <span>See my work</span>
+                <span>See more</span>
                 <BsArrowRight className="w-5 h-5 ml-2 inline-block" />
             </button>
         </div>
