@@ -16,14 +16,15 @@ const Hero = () => {
                 width={150}
                 height={150}
                 className="rounded-full border-8 border-[#5a213e]/50"
+                data-aos="fade-up"
             />
 
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-6 text-center font-bold tracking-wide">
+            <h1 data-aos="fade-up" data-aos-delay="1000" className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-6 text-center font-bold tracking-wide">
                 Undergraduate engineer building<br /> <span className="text-[#d4b886]">high-performance systems</span> <br /> 
                 and <span className="text-[#d4b886]">intelligent web apps.</span> 
             </h1>
 
-            <h2 className="mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center">
+            <h2 data-aos="fade-up" data-aos-delay="1200" className="mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center">
                 Hi! I'm Kurt - An aspiring <span className="text-[#d4b886] font-bold">
                     <TypeWriter options={{
                         strings: [
@@ -40,12 +41,6 @@ const Hero = () => {
                     />
                 </span>
             </h2>
-
-            <button className="mt-6 px-10 py-4 bg-[#c1a36e] hover:bg-[#d4b886] transition-all duration-300
-            cursor-pointer rounded-full text-lg font-medium">
-                <span>See more</span>
-                <BsArrowRight className="w-5 h-5 ml-2 inline-block" />
-            </button>
         </div>
     </div>
   )

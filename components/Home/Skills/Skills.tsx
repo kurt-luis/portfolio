@@ -20,11 +20,11 @@ const skills = [
 const Skills = () => {
     return (
         <div className="text-[#f8f6f7] pt-16 pb-24 max-w-7xl mx-auto px-4">
-            <h1 className="text-center text-2xl md:text-4xl xl:text-5xl font-bold text-[#f8f6f7] mb-16">
+            <h1 data-aos="fade-up" className="text-center text-2xl md:text-4xl xl:text-5xl font-bold text-[#f8f6f7] mb-16">
                 My <span className="text-[#d4b886]">Skills</span>
             </h1>
 
-            <div className="flex flex-wrap justify-center gap-6">
+            <div data-aos="fade-up" data-aos-delay="500" className="flex flex-wrap justify-center gap-6">
                 {skills.map((skill) => (
                     <Tilt key={skill.name} scale={1.1} transitionSpeed={400}>
                         <div className="bg-[#0d0d1f]/70 border border-white/5 w-40 h-48 rounded-3xl flex flex-col items-center justify-center shadow-lg transition-all duration-300 hover:shadow-[0_10px_20px_rgba(212,184,134,0.1)] group">

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
+import { Analytics } from "@vercel/analytics/next"
 
 const font = Inter({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -24,6 +25,7 @@ export default function RootLayout({
       className={`${font.className} h-full antialiased bg-[#5a213e] text-white bg-fixed`}
     >
       <body className="min-h-full flex flex-col">
+        <Analytics/>
         <section className="bg-gradient-to-b from-[#0d0d1f] to-[#5a213e]">
           <ResponsiveNav />
         </section>

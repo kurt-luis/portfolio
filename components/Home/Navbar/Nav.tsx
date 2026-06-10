@@ -6,6 +6,7 @@ import { BiDownload } from 'react-icons/bi';
 import Link from 'next/link';
 import { NavLinks } from '@/constant/constant';
 import { HiBars3BottomRight } from 'react-icons/hi2';
+import DownloadCVButton from './DownloadCVButton';
 
 type Props = {
     openNav: () => void;
@@ -51,11 +52,7 @@ const Nav = ({ openNav }: Props) => {
             {/* Buttons */}
             <div className="flex items-center space-x-4">
                 {/* CV Button */}
-                <button className="px-8 py-3.5 text-sm cursor-pointer rounded-lg bg-[#5a213e] hover:bg-[#8e556c]
-                transition-all duration-300 text-white flex items-center space-x-2">
-                    <BiDownload className="w-5 h-5" />
-                    <span>Download CV</span>
-                </button>
+                <DownloadCVButton />
 
                 {/* Burger Menu */}
                 <HiBars3BottomRight onClick={openNav} className="w-8 h-8 cursor-pointer text-[#f8f6f7] lg:hidden"/>
