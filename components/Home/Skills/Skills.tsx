@@ -10,17 +10,17 @@ import {
 import Tilt from "react-parallax-tilt";
 
 const skills = [
-    { name: 'Python', icon: <SiPython />, level: 'Advanced', colorClass: 'text-[#d4b886] bg-[#d4b886]/10 border-[#d4b886]/20' },
-    { name: 'C++', icon: <SiCplusplus />, level: 'Advanced', colorClass: 'text-[#d4b886] bg-[#d4b886]/10 border-[#d4b886]/20' },
-    { name: 'TypeScript', icon: <SiTypescript />, level: 'Advanced', colorClass: 'text-[#d4b886] bg-[#d4b886]/10 border-[#d4b886]/20' },
-    { name: 'Next.js', icon: <SiNextdotjs />, level: 'Proficient', colorClass: 'text-emerald-400 bg-emerald-400/10 border-emerald-400/20' },
-    { name: 'Tailwind CSS', icon: <SiTailwindcss />, level: 'Proficient', colorClass: 'text-emerald-400 bg-emerald-400/10 border-emerald-400/20' },
+    { name: 'Python', icon: <SiPython />, level: 'Advanced', colorClass: 'text-emerald-400 bg-emerald-400/10 border-emerald-400/20' },
+    { name: 'C++', icon: <SiCplusplus />, level: 'Advanced', colorClass: 'text-emerald-400 bg-emerald-400/10 border-emerald-400/20' },
+    { name: 'TypeScript', icon: <SiTypescript />, level: 'Advanced', colorClass: 'text-emerald-400 bg-emerald-400/10 border-emerald-400/20' },
+    { name: 'Next.js', icon: <SiNextdotjs />, level: 'Proficient', colorClass: 'text-[#d4b886] bg-[#d4b886]/10 border-[#d4b886]/20' },
+    { name: 'Tailwind CSS', icon: <SiTailwindcss />, level: 'Proficient', colorClass: 'text-[#d4b886] bg-[#d4b886]/10 border-[#d4b886]/20' },
 ];
 
 const Skills = () => {
     return (
         <div className="text-[#f8f6f7] pt-16 pb-24 max-w-7xl mx-auto px-4">
-            <h1 data-aos="fade-up" className="text-center text-2xl md:text-4xl xl:text-5xl font-bold text-[#f8f6f7] mb-16">
+            <h1 data-aos="fade-up" className="text-center text-4xl md:text-5xl xl:text-6xl font-bold text-[#f8f6f7] mb-16">
                 My <span className="text-[#d4b886]">Skills</span>
             </h1>
 
