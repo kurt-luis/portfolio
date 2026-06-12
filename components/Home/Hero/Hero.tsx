@@ -11,12 +11,13 @@ const Hero = () => {
         <ParticlesHero />
         <div className="relative z-10 flex flex-col items-center">
             <Image
-                src="/images/pic1.jpg"
+                src="/images/heropic.jpg"
                 alt="Hero Image"
                 width={150}
                 height={150}
-                className="rounded-full border-8 border-[#5a213e]/50"
+                className="rounded-full border-8 border-[#d4b886]/80"
                 data-aos="fade-up"
+                loading="eager"
             />
 
             <h1 data-aos="fade-up" data-aos-delay="1000" className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-6 text-center font-bold tracking-wide">
