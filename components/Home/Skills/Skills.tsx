@@ -4,6 +4,7 @@ import {
     SiCplusplus, 
     SiNextdotjs, 
     SiPython, 
+    SiReact, 
     SiTailwindcss, 
     SiTypescript,
 } from 'react-icons/si';
@@ -13,6 +14,7 @@ const skills = [
     { name: 'Python', icon: <SiPython />, level: 'Advanced', colorClass: 'text-emerald-400 bg-emerald-400/10 border-emerald-400/20' },
     { name: 'C++', icon: <SiCplusplus />, level: 'Advanced', colorClass: 'text-emerald-400 bg-emerald-400/10 border-emerald-400/20' },
     { name: 'TypeScript', icon: <SiTypescript />, level: 'Advanced', colorClass: 'text-emerald-400 bg-emerald-400/10 border-emerald-400/20' },
+    { name: 'React', icon: <SiReact />, level: 'Proficient', colorClass: 'text-[#d4b886] bg-[#d4b886]/10 border-[#d4b886]/20' },
     { name: 'Next.js', icon: <SiNextdotjs />, level: 'Proficient', colorClass: 'text-[#d4b886] bg-[#d4b886]/10 border-[#d4b886]/20' },
     { name: 'Tailwind CSS', icon: <SiTailwindcss />, level: 'Proficient', colorClass: 'text-[#d4b886] bg-[#d4b886]/10 border-[#d4b886]/20' },
 ];
