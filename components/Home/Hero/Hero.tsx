@@ -25,8 +25,10 @@ const Hero = () => {
                 and <span className="text-[#d4b886]">intelligent web apps.</span> 
             </h1>
 
-            <h2 data-aos="fade-up" data-aos-delay="1200" className="mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center">
-                Hi! I'm Kurt - An aspiring <span className="text-[#d4b886] font-bold">
+            <h2 data-aos="fade-up" data-aos-delay="1200" className="mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2">
+                <span>Hi! I'm Kurt - An aspiring</span>
+                
+                <span className="text-[#d4b886] font-bold min-h-[20px] sm:min-h-[32px]">
                     <TypeWriter options={{
                         strings: [
                             "AI Engineer.",
@@ -37,7 +39,6 @@ const Hero = () => {
                         loop: true,
                         delay: 75,
                         deleteSpeed: 50,
-                        wrapperClassName: "pl-2",
                         }} 
                     />
                 </span>
